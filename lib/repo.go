@@ -20,7 +20,7 @@ func CreateDefaultRepo(name string) Repo {
 	r.Name = name
 	r.Description = "Repo for " + name
 	r.Homepage = "https://github.com"
-	r.Private = true
+	r.Private = false
 	r.Has_issues = true
 	r.Has_wiki = false
 	r.Has_downloads = true
